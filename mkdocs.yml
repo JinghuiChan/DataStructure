@@ -110,3 +110,6 @@ plugins:
 # pip install mkdocs-glightbox
 # pip install markdown-checklist
 # pip install mkdocs-link-marker    # https://github.com/timmeinerzhagen/mkdocs-link-marker
+
+
+# mkdocs serve  运行
