@@ -59,7 +59,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-    annotation: material/arrow-right-circle
+    #annotation: material/arrow-right-circle
+    annotation: material/plus-circle
 
 extra:
   social:
@@ -70,7 +71,8 @@ nav:
   - 第1章 绪论:
     - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
   - 第2章 线性表:
-    - 顺序表: "第2章 线性表/2.1 顺序表.md"
+    - 2.1 顺序表: "第2章 线性表/2.1 顺序表.md"
+    - 2.2 链表: "第2章 线性表/2.2 链表.md"
 #nav:
 #  - 前言: "index.md"
 #  - 必学工具:
