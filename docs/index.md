@@ -21,7 +21,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常见的数据结构包括数组、链表、栈、队列、哈希表、树、堆、图，它们可以从“逻辑结构”和“物理结构”两个维度进行分类。</p></br>
 
 <figure markdown="span">
-  ![数据结构分类](../pic/1/classification_logic_structure.png)
+  ![数据结构分类](./pic/1/classification_logic_structure.png)
   <figcaption>数据结构分类</figcaption>
 </figure>
 
