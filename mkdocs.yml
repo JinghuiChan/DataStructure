@@ -67,6 +67,15 @@ extra:
     - icon: fontawesome/brands/github
       #link: https://github.com/JinghuiChan/ComputerWings
 
+# 表格具有排序功能，还需要添加tables.js
+# 可以使用数学公式 MathJax ，需添加config.js
+extra_javascript:
+  - javascripts/tables.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - 第1章 绪论:
     - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
@@ -109,6 +118,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.arithmatex:              #使用数学公式MathJax，需要添加config.js in file javascripts
+      generic: true
 
 plugins:
   - glightbox
