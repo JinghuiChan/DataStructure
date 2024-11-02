@@ -9,6 +9,7 @@ copyright: Copyright &copy; 2024-present <a href="https://github.com/JinghuiChan
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -125,6 +126,7 @@ extra_javascript:
 
 plugins:
   - glightbox
+
 
 
 
