@@ -67,15 +67,6 @@ extra:
     - icon: fontawesome/brands/github
       #link: https://github.com/JinghuiChan/ComputerWings
 
-# 表格具有排序功能，还需要添加tables.js
-# 可以使用数学公式 MathJax ，需添加config.js
-extra_javascript:
-  - javascripts/tables.js
-  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
-  - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
 nav:
   - 第1章 绪论:
     - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
@@ -88,6 +79,7 @@ nav:
     - 3.1 栈: "第3章 栈和队列/3.1 栈.md"
   - 第5章 树和二叉树:
       - 5.1 树与二叉树的概念及性质: "第5章 树和二叉树/5.1 树与二叉树的概念及性质.md"
+      - 5.2 二叉树的存储: "第5章 树和二叉树/5.2 二叉树的存储.md"
 
 #nav:
 #  - 前言: "index.md"
@@ -120,6 +112,16 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.arithmatex:              #使用数学公式MathJax，需要添加config.js in file javascripts
       generic: true
+
+# 表格具有排序功能，还需要添加tables.js
+# 可以使用数学公式 MathJax ，需添加config.js
+extra_javascript:
+  - javascripts/tables.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 
 plugins:
   - glightbox
